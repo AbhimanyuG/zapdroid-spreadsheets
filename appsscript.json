@@ -1,0 +1,27 @@
+{
+  "timeZone": "Asia/Bangkok",
+  "dependencies": {
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/spreadsheets.currentonly",
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/script.scriptapp"
+  ],
+  "addOns": {
+    "common": {
+      "name": "Zapdroid for Spreadsheets",
+      "logoUrl": "https://static.wixstatic.com/media/1b65e9_093b595c6f7240f6bbb534c756618bc3~mv2.png"
+    },
+    "sheets": {
+      "homepageTrigger": {
+        "enabled": false,
+        "runFunction": ""
+      }
+    }
+  },
+  "urlFetchWhitelist": [
+    "https://httpbin.org/"
+  ]
+}
