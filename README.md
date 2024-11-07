@@ -1,12 +1,22 @@
 # zapdroid-spreadsheets
 
 With your desired Google Spreadsheet opened, go to Tools -> Script editor.
+
+![image](https://github.com/user-attachments/assets/0470071c-44f4-4767-abe9-bef71d0a2fd7)
+
 It should open an editor in a new page with a Code.gs file containing an empty function.
 Remove any contents from Code.gs and save the project at File -> Save. Give any name you want.
 
+![image](https://github.com/user-attachments/assets/8c363d58-e2ff-4e93-ab50-2c80c0ffdd41)
+
+
 Go to project properties and make sure to select Show "appsscript.json" manifest file in editor checkbox.
 
-Go back to code editor, select the Code.gs file and paste the contents from the downloaded BINANCE.gs file.
+![image](https://github.com/user-attachments/assets/50dc769a-d14a-43a1-826d-fbc28376665d)
+
+Go back to code editor, select the Code.gs file in the directory and copy/paste the contents from Code.gs of this repo.
+
+
 
 Do the same for appsscript.json and optionally set your desired timezone.
 
