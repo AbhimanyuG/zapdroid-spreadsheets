@@ -1,5 +1,6 @@
+const token = ""
 /**
- * Sends a POST request to httpbin.org with a prompt and returns the reverse of the prompt from the response.
+ * Ask Zapdroid with a prompt
  *
  * @param {string} prompt The prompt to send in the POST request.
  * @return The reverse of the prompt from the response.
@@ -7,7 +8,7 @@
  */
 function ZAP(prompt) {
   // Fixed URL for POST request
-  var URL = "https://httpbin.org/post";
+  var URL = "https://core.services.zapdroid.io/webhook-spreadsheet";
 
   // Show "busy..." while processing
   //var cell = SpreadsheetApp.getActiveSpreadsheet().getActiveCell();
@@ -15,7 +16,7 @@ function ZAP(prompt) {
   
   try {
     // Prepare the payload
-    var payload = JSON.stringify({ prompt: prompt });
+    var payload = JSON.stringify({ message: prompt, token });
     
     // Set up the request options
     var options = {
@@ -29,10 +30,10 @@ function ZAP(prompt) {
     var json = JSON.parse(response.getContentText());
     
     // Get the prompt from the response and reverse it
-    var returnedPrompt = json.json.prompt;
-    var reversedPrompt = returnedPrompt.split('').reverse().join('');
+    var returnedPrompt = json.reply;
+    //var reversedPrompt = returnedPrompt.split('').reverse().join('');
     
-    return reversedPrompt;
+    return returnedPrompt;
   } catch (error) {
     // If there's an error, return the error message
     return "Error: " + error.toString();
@@ -58,7 +59,7 @@ function showAuthorizationDialog() {
   
   // Attempt to make a UrlFetchApp call to trigger authorization
   try {
-    UrlFetchApp.fetch('https://httpbin.org/get');
+    UrlFetchApp.fetch('https://core.services.zapdroid.io/');
     ui.alert('Authorization Successful', 'The add-on has been successfully authorized.', ui.ButtonSet.OK);
   } catch (e) {
     ui.alert('Authorization Failed', 'Failed to authorize the add-on. Please try again.', ui.ButtonSet.OK);
