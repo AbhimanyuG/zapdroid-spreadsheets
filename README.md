@@ -1,5 +1,7 @@
 # zapdroid-spreadsheets
 
+## Setup instructions
+
 With your desired Google Spreadsheet opened, go to Tools -> Script editor.
 
 ![image](https://github.com/user-attachments/assets/0470071c-44f4-4767-abe9-bef71d0a2fd7)
