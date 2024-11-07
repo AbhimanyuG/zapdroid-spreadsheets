@@ -24,10 +24,22 @@ Do the same for appsscript.json and optionally set your desired timezone.
 
 Save the project again and refresh/reload your Google Spreadsheet (hit F5 on the browser).
 
-Once reloaded, you should see a little message box (toast) at the bottom-right corner.
+Once reloaded, you should see a navigation item "Zapdroid" 
 
-Go to Binance item at your spreadsheet's main menu and click on the Authorize add-on! item.
+![image](https://github.com/user-attachments/assets/4c1df057-164b-48b8-bb05-7b7e569452f6)
+
+Go to Zapdroid at your spreadsheet's main menu and click on the Authorize add-on! item.
+
+![image](https://github.com/user-attachments/assets/bc09d35a-bf64-4032-aaa9-83a60a2c2d77)
 
 A Google's dialog should appear asking for permissions, proceed with all the steps and click Allow.
+
+![image](https://github.com/user-attachments/assets/cd5c9496-05bf-4b3f-933f-8182f2743337)
+
+![image](https://github.com/user-attachments/assets/afa5c1a8-8085-4c1e-90fc-d056829017dc)
+
+![image](https://github.com/user-attachments/assets/d36cad07-e191-46f6-bd65-b9877b80db4a)
+
 The popup will close and nothing will change on your spreadsheet yet!
+
 Once the add-on is authorized, repeat step 5 (click Authorize add-on! again) and voila!
