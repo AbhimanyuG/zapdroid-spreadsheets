@@ -43,3 +43,26 @@ A Google's dialog should appear asking for permissions, proceed with all the ste
 The popup will close and nothing will change on your spreadsheet yet!
 
 Once the add-on is authorized, repeat step 5 (click Authorize add-on! again) and voila!
+
+## Usage
+
+From any cell, now you can interact with AI with '=ZAP()' function
+
+![image](https://github.com/user-attachments/assets/94686365-dee6-4ca8-ac0c-936eadd33f4c)
+
+Test it by prompting with "hi"
+
+![image](https://github.com/user-attachments/assets/a6e3ccb9-9bc1-46b6-8d1a-d93f7e64432f)
+
+It should reply like this:
+
+![image](https://github.com/user-attachments/assets/21a903e9-af3e-4eb7-8f76-5d3cffc3c837)
+
+In this example, we generate keywords for our site from product title
+
+![image](https://github.com/user-attachments/assets/a8ef9729-77c0-4169-8f78-222cfa95b0bd)
+
+All set!
+
+![image](https://github.com/user-attachments/assets/e51047be-2189-49a0-9892-2592f4223a81)
+
