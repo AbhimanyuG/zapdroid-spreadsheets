@@ -18,7 +18,11 @@ Go to project properties and make sure to select Show "appsscript.json" manifest
 
 Go back to code editor, select the Code.gs file in the directory and copy/paste the contents from Code.gs of this repo.
 
+![image](https://github.com/user-attachments/assets/dda82e44-0484-4c82-9f78-0ec3950360f3)
 
+The token can be found under Zapdroid account on Apps page: https://console.zapdroid.io
+
+![image](https://github.com/user-attachments/assets/0a34b978-1a6a-4175-b201-d00fddbb4701)
 
 Do the same for appsscript.json and optionally set your desired timezone.
 
